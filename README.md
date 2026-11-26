@@ -1,6 +1,6 @@
 # dz-order-cleaner 🇩🇿
 
-[![tests](https://github.com/YOUR_USERNAME/dz-order-cleaner/actions/workflows/tests.yml/badge.svg)](https://github.com/YOUR_USERNAME/dz-order-cleaner/actions)
+[![tests](https://github.com/yazid77bzr/dz-order-cleaner/actions/workflows/tests.yml/badge.svg)](https://github.com/yazid77bzr/dz-order-cleaner/actions)
 ![python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
