@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dz-order-cleaner"
+version = "0.1.0"
+description = "Clean Algerian e-commerce order files: fix phone numbers, normalise the 58 wilayas, remove duplicates."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["algeria", "ecommerce", "yalidine", "zr-express", "csv", "data-cleaning"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+]
+
+[project.optional-dependencies]
+xlsx = ["openpyxl>=3.1"]
+dev = ["pytest", "openpyxl>=3.1"]
+
+[project.scripts]
+dz-clean = "dz_order_cleaner.cli:main"
+
+[tool.setuptools]
+packages = ["dz_order_cleaner"]
